@@ -1,17 +1,16 @@
 // Single line comment
 /* multi
 line 
-comment 
-var name = 'Charu and Shradha';
+comment */ 
+var name = 'Shradha';
 console.log(name);
 var lastName = 'Sisters';
 console.log(lastName);
 var age = 19;
 console.log(age);
 var fullAge = true;
-console.log(fullAge); */
+console.log(fullAge); 
 
-/*
 
 var name = 'John';
 var age = 26;
@@ -25,7 +24,6 @@ job = 'Teacher';
 married = true;
 console.log(name + ' ' + age + ' ' + job + ' ' + married);
 
-
 age = 'thirty six';
 job = 'cook';
 console.log(name + ' ' + age + ' ' + job + ' ' + married);
@@ -34,10 +32,10 @@ var lastName = prompt("lastname?");
 console.log(lastName);
 
 alert(name + ' ' + age + ' ' + job + ' ' + married); 
-*/
+
 
 //operators
-/*var now = 2018;
+var now = 2018;
 var birthYear = now - 26;
 
 birthYear = now - 26 *2;
@@ -55,9 +53,8 @@ ageMark *= 2;
 console.log(ageJohn);
 console.log(ageMark);
 
-*/
 //if else
-/*
+
 var name = 'Charu';
 var age = 18;
 var married = 'no';
@@ -76,19 +73,17 @@ if(married)
 	console.log("Yes!");
 }
 else
-{ console.log("no");}
+{ console.log("no"); }
 
 if(23 === '23') //type coercion
 {
 	console.log("print");
 }
 
-
 if(23 == '23')
 {
 	console.log("print");
 }
-*/ 
 
 var age = 35;
 if(age < 20 )
@@ -116,3 +111,4 @@ switch (job)
 
 
 }
+
