@@ -103,9 +103,6 @@ switch (job)
 	case 'driver':
 	   console.log('he drives');
 	   break;
-	case 'cop':
-	   console.log('he is a police');
-	   break;
 	default:
 	   console.log('he does something else');
 
